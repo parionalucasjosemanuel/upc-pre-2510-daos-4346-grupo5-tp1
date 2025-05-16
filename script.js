@@ -30,7 +30,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("supportForm");
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
-    alert("Gracias por tu mensaje. Será enviado a nuestro correo: tuchambamascerca@gmail.com");
-
+    alert("Thank you for your message. It will be sent to our email: tuchambamascerca@gmail.com");
   });
 });
